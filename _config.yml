@@ -2,5 +2,9 @@ theme: jekyll-theme-minimal
 title: Carson Irving's Portfolio
 description: This is a Portfolio for my time at Iowa State University
 
+markdown: kramdown
+highlighter: rouge
 sass:
   style: compressed
+
+
