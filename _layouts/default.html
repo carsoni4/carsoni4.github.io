@@ -4,8 +4,43 @@
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <style>
+    /* Top nav bar */
+    nav {
+      background-color: #1e1e1e;
+      color: #e0e0e0;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: bold;
+    }
+    nav a {
+      color: #80cbc4;
+      text-decoration: none;
+      margin-left: 15px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Paper content */
+    .content {
+      max-width: 800px;
+      margin: 60px auto 100px auto; /* leave space for nav and footer */
+      padding: 0 20px;
+    }
+  </style>
 </head>
 <body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div>{{ site.title }}</div>
+    <div>
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/papers' | relative_url }}">All Papers</a>
+    </div>
+  </nav>
   {{ content }}
   <footer>
     Email: <a href="mailto:carsoni@iastate.edu">carsoni@iastate.edu</a> Phone: 641-820-1447
