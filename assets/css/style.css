@@ -21,3 +21,28 @@ code {
   border-radius: 4px;
 }
 
+/* Sticky footer */
+footer {
+  position: fixed;       /* Sticks to viewport */
+  bottom: 0;             /* Bottom of the page */
+  left: 0;
+  width: 100%;           /* Full width */
+  background-color: #1e1e1e; /* Match dark theme */
+  color: #e0e0e0;
+  text-align: center;
+  padding: 5px 0;        /* Thin bar */
+  font-size: 0.9em;
+  border-top: 1px solid #333; /* subtle line on top */
+  z-index: 1000;         /* stays above other content */
+}
+
+/* Optional: links in footer */
+footer a {
+  color: #80cbc4;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+
