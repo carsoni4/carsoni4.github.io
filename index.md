@@ -8,5 +8,6 @@ title: Carson Irving Portfolio
 
 # Reflections
 
+- [Resume](resume/resume.html)
 - [General Education Reflection](papers/genref.html)
 - [Cumulative Reflection](papers/cumref.html)
