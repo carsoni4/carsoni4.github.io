@@ -8,22 +8,20 @@ We ended up making Supper Solvers, a Tik Tok like app where you can find recipes
 
 <details>
   <summary>Websocket Snippet</summary>
-  '''java
-else if(message.startsWith("[OPENUSER]"))
-{
+  <pre><code class="language-java">
+else if (message.startsWith("[OPENUSER]")) {
     String chatHist = message.substring(11);
     sendMessageToPArticularUser(username, getUserHistory(chatHist, username));
-}
-else if(message.startsWith("[OPENGROUP]"))
-{
+} 
+else if (message.startsWith("[OPENGROUP]")) {
     sendMessageToPArticularUser(username, getGroupHistory(groupID));
-}
-else if(message.startsWith("[FRIEND]"))
-{
-    if(usernameSessionMap.containsKey(message.substring(9)))
+} 
+else if (message.startsWith("[FRIEND]")) {
+    if (usernameSessionMap.containsKey(message.substring(9))) {
         friendNotificationSend(message.substring(9));
+    }
 }
-  '''
+  </code></pre>
 </details>
 
 
