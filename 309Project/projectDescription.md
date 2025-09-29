@@ -6,6 +6,8 @@ title: COMS 3090 Project Description
 My Group and I were tasked in creating an Android App with a Java Backend. 
 We ended up making Supper Solvers, a TikTok-like app where you can find recipes recommended based on your ingredients. We used Spring Boot for the backend REST API and database integration. I was responsible for working on the backend along with one other teammate. Included below is some of the source code.
 
+![SupperSolver Homescreen](assets/309Project/SupperSolverPicture.png)
+
 <details>
     <summary style="font-size:1.5em; font-weight:bold;">Websocket Code Snippits</summary>
     <p>
@@ -30,7 +32,7 @@ We ended up making Supper Solvers, a TikTok-like app where you can find recipes 
 </details>
 
 <details>
-    <summary>Basic Controller Function</summary>
+    <summary style="font-size:1.5em; font-weight:bold;">Basic Controller Function</summary>
     <p>
     This is an example how we interacted with the objects we created inside the object controllers.
     Having the objects managed through spring-boot so they were linked together in the SQL tables automatically really helped
