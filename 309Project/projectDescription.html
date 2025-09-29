@@ -6,9 +6,8 @@ title: COMS 3090 Project Description
 My Group and I were tasked in creating a Android App with a Java Backend. 
 We ended up making Supper Solvers, a Tik Tok like app where you can find recipes, recommended to you by what ingredients you own. We used spring boot as our backend framework to handle our REST API and database integration. I was responsible for working on the backend along with one other teamate. Included below is the source code for the backend of the project, along with some more significant snippets.
 
-<details>
-  <summary>Websocket Snippet</summary>
-  <pre><code class="language-java">
+
+```java
 else if (message.startsWith("[OPENUSER]")) {
     String chatHist = message.substring(11);
     sendMessageToPArticularUser(username, getUserHistory(chatHist, username));
@@ -21,9 +20,7 @@ else if (message.startsWith("[FRIEND]")) {
         friendNotificationSend(message.substring(9));
     }
 }
-  </code></pre>
-</details>
-
+```
 
 - API
 - Other
