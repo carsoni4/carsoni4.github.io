@@ -29,4 +29,31 @@ We ended up making Supper Solvers, a TikTok-like app where you can find recipes 
     </pre>
 </details>
 
+<details>
+    <summary>Basic Controller Function</summary>
+    <p>
+    This is an example how we interacted with the objects we created inside the object controllers.
+    Having the objects managed through spring-boot so they were linked together in the SQL tables automatically really helped
+    keep everything organized! After we got everything set up it was very evident why a framework like this is needed,
+    rather than managing a bunch of manual SQL commands for each of your objects and managing relationships.
+    </p>
+    <pre style="background-color:#2d2d2d;color:#c678dd;padding:10px;border-radius:5px;overflow-x:auto;font-family:monospace;">    
+    @Operation(summary = "Creates a rating object on Post")
+    @PostMapping(path = "/rating")
+    public MRating CreateRating(@RequestBody RatingDTO rating)
+    {
+        if(rating.getRating() > 5 || rating.getRating() < 0)
+            throw new IllegalArgumentException("Rating must be less than 5 or greater than -1");
+        else
+        {
+            MRating newRating = new MRating();
+            newRating.setRating(rating.getRating());
+            newRating.setUser(rUser.findById(rating.getUserID()).get());
+            newRating.setRecipe(rRecipe.findById(rating.getRecipeID()).get());
+            return rRating.save(newRating);
+        }
+    }
+    </pre>
+</details>
+
     
