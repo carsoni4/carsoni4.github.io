@@ -1,3 +1,6 @@
 theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: Carson Irving's Portfolio
+description: This is a Portfolio for my time at Iowa State University
+
+sass:
+  style: compressed

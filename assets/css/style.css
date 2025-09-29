@@ -1,0 +1,23 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: system-ui, sans-serif;
+}
+
+/*links*/
+a {
+  color: #80cbc4;
+}
+
+a:hover {
+  color: #4db6ac;
+}
+
+/*code blocks*/
+code {
+  background-color: #1e1e1e;
+  color: #c3e88d;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
