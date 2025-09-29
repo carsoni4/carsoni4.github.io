@@ -6,7 +6,10 @@ title: COMS 3090 Project Description
 My Group and I were tasked in creating an Android App with a Java Backend. 
 We ended up making Supper Solvers, a TikTok-like app where you can find recipes recommended based on your ingredients. We used Spring Boot for the backend REST API and database integration. I was responsible for working on the backend along with one other teammate. Included below is some of the source code.
 
-<img src="/assets/309Project/SupperSolverPicture.png" alt="Picture of SupperSolver Homescreen" style="max-width:33%; height:auto;">
+<details>
+    <summary style="font-size:1.5em; font-weight:bold;">Image Of Homescreen</summary>
+    <img src="/assets/309Project/SupperSolverPicture.png" alt="Picture of SupperSolver Homescreen" style="max-width:33%; height:auto;">
+</details>
 
 <details>
     <summary style="font-size:1.5em; font-weight:bold;">Websocket Code Snippits</summary>
