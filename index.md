@@ -32,6 +32,4 @@ title: Carson Irving Portfolio
 
 
 
-
-
-Hello :)
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
