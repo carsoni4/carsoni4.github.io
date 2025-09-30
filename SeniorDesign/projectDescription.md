@@ -1,16 +1,16 @@
 ---
 layout: paper
-title: COMS 3090 Project Description
+title: Senior Design Project
 ---
 
-My group was tasked with creating a 32 bit MIPS capable Pipelined, Multi-Cycle, Single Cycle CPU's in VHDL. This was
-one of the most difficult classes I have taken at Iowa State, but it was the class I learned the most in. Debugging
-the processor in the class was one of the most infuriating, yet satisfying processes. There were multiple times that
-I would be failing over 50 tests on my CPU and I would find a single register that had been incorrectly assigned a value
-and it would fix almost all of them. 
-I would say the biggest takeaway from this class was the general understanding of how different types of CPU's work.
-While modern CPU's are much more complex, the class allowed me to see what goes into the development of this technology 
-and made me respect how far we have advanced on a hardware level.
+Our project focuses on designing and developing a smart, AI-enabled aquarium system that automates and optimizes fish 
+care and water management. Traditional aquarium maintenance requires frequent manual monitoring of water quality and
+fish health, which can lead to inconsistent care and stress for aquatic life. To address this, we plan to build an 
+integrated system combining sensors, actuators, and artificial intelligence for real-time water quality monitoring 
+(temperature, pH, dissolved oxygen, turbidity), automated temperature and flow regulation, AI-driven feeding schedules, 
+and computer vision for fish counting and growth tracking. A web-based dashboard will allow users to visualize data trends,
+receive alerts, and remotely manage the system. The expected outcome is a fully functional prototype that demonstrates improved
+fish welfare, reduced manual effort, and the feasibility of AI- and IoT-enabled aquaculture management.
 
 <details>
     <summary style="font-size:1.5em; font-weight:bold;">Frontend Information</summary>
