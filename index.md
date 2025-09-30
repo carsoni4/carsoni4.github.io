@@ -4,7 +4,7 @@ title: Carson Irving Portfolio
 ---
 <h1 style="text-align: center;">Welcome To Carson Irving's Portfolio</h1
 
-#Projects
+# Projects
 - [COMS 3090 Java Backend For Android App](309Project/projectDescription.md)
 - [CPRE 3810 MIPS 32 Bit Processor Designed in VHDL](381Project/projectDescription.md)
 #Resume
