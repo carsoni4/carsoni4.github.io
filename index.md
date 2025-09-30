@@ -14,6 +14,10 @@ title: Carson Irving Portfolio
 
 - [Resume](resume/resume.html)
 
+# Ethics Paper
+
+- [The Ethical Blueprint of Twitter](papers/ethics.html)
+
 # Reflections
 
 - [General Education Reflection](papers/genref.html)

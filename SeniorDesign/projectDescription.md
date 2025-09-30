@@ -16,7 +16,7 @@ fish welfare, reduced manual effort, and the feasibility of AI- and IoT-enabled 
     <summary style="font-size:1.5em; font-weight:bold;">Frontend Information</summary>
     <p>
     While my team has not decided on a frontend solution yet I have put my hat in the ring for sveltejs (web) and
-    svelte native (app). We are not 100% sure that an appgit is going to be plausible to develop on top of the web environment,
+    svelte native (app). We are not 100% sure that an application is going to be plausible to develop on top of the web environment,
     but I think that using svelte js and native for the frameworks will make it a consistent development experience.
     </p>
 </details>
