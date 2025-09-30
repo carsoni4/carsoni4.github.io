@@ -6,8 +6,9 @@ title: Carson Irving Portfolio
 
 # Projects
 
-- [COMS 3090 Java Backend For Android App](309Project/projectDescription.md)
-- [CPRE 3810 MIPS 32 Bit Processor Designed in VHDL](381Project/projectDescription.md)
+- [Senior Design - AI Intregated Aquarium Management](SeniorDesign/projectDescription.md)
+- [COMS 3090 - Java Backend For Android App](309Project/projectDescription.md)
+- [CPRE 3810 - MIPS 32 Bit Processor Designed in VHDL](381Project/projectDescription.md)
 
 # Resume
 
