@@ -26,10 +26,18 @@ and made me respect how far we have advanced on a hardware level.
     <p>
     Below is an example of the .NET WEB API, which is what we are using for the backend of the project. While we 
     have not started actual backend development below is an example of a simple http request handler for recieving temperature
-    information from the arduino.
+    information from the arduino. While I do not have the request made to request from the arduino, as we do not have the hardware yet,      this demostrates the general idea. [Though it will have to be async as it is waiting on the arduino] 
     </p>
     <pre style="background-color:#2d2d2d;color:#c678dd;padding:10px;border-radius:5px;overflow-x:auto;font-family:monospace;">
-Code here {}
+app.MapGet("/tanktemperature", () =>
+{
+    //TODO HTTP GET REQUEST TO ARDUINO BACKEND
+    int temp = 0;
+    return temp;
+})
+.WithName("GetTankTemperature");
+
+app.Run();
     </pre>
 </details>
 
