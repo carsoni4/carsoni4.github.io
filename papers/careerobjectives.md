@@ -1,9 +1,7 @@
 ---
 layout: paper
-title: General Education Reflection
+title: Career Objectives
 ---
-
-# Career Objectives
 
 My career objective is to build a strong foundation in cybersecurity by gaining experience in threat analysis, 
 system defense, security policy, and the interworkings of hardware. Over time, I would like to grow into a role
