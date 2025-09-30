@@ -14,7 +14,11 @@ and made me respect how far we have advanced on a hardware level.
 
 <details>
     <summary style="font-size:1.5em; font-weight:bold;">Diagram Of CPU</summary>
-    <img src="/assets/309Project/SupperSolverPicture.png" alt="Picture of SupperSolver Homescreen" style="max-width:33%; height:auto;">
+    <iframe src="{{ '/assets/381Project/CPUDiagram.pdf' | relative_url }}" 
+        width="100%" height="800px">
+        This browser does not support PDFs. Please download the PDF to view it: 
+        <a href="{{ '/assets/381Project/CPUDiagram.pdf' | relative_url }}">Download PDF</a>.
+    </iframe>    
 </details>
 
 <details>
