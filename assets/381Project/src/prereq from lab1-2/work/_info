@@ -1,0 +1,1170 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Carson/Desktop/lab2
+Eadder
+Z1 w1727555028
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/Carson/Desktop/lab2/lab01stuff/Adder.vhd
+Z5 FC:/Users/Carson/Desktop/lab2/lab01stuff/Adder.vhd
+l0
+L26
+Vie]<j?[Y^l8Q3D=EIIC_:0
+!s100 ?M@C[n:@^fhmgGDG`5ibH3
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1727570280
+!i10b 1
+Z8 !s108 1727570280.000000
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/lab01stuff/Adder.vhd|
+Z10 !s107 C:/Users/Carson/Desktop/lab2/lab01stuff/Adder.vhd|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavior
+R2
+R3
+DEx4 work 5 adder 0 22 ie]<j?[Y^l8Q3D=EIIC_:0
+l36
+L35
+V;1<0UOS7@[zPo1R`OK7WI2
+!s100 cB67aGlEFcN>h>lDnF1Sh3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eaddsub
+Z13 w1727554612
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z15 8C:/Users/Carson/Desktop/lab2/lab01stuff/addsub.vhd
+Z16 FC:/Users/Carson/Desktop/lab2/lab01stuff/addsub.vhd
+l0
+L5
+VF9PjH?]hOI?ZiS[^3VA_K1
+!s100 ]TWjAC>H5NazZzBSn4=]M2
+R6
+32
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/lab01stuff/addsub.vhd|
+Z18 !s107 C:/Users/Carson/Desktop/lab2/lab01stuff/addsub.vhd|
+!i113 1
+R11
+R12
+Astructural
+R14
+R2
+R3
+DEx4 work 6 addsub 0 22 F9PjH?]hOI?ZiS[^3VA_K1
+l54
+L17
+VR5<;SCOj0_HHn4U>2LPnG2
+!s100 ^6Z_W;gEVkn0`GIk_XKCo1
+R6
+32
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Eandg2
+Z19 w1727555013
+R2
+R3
+R0
+Z20 8C:/Users/Carson/Desktop/lab2/lab01stuff/andg2.vhd
+Z21 FC:/Users/Carson/Desktop/lab2/lab01stuff/andg2.vhd
+l0
+L23
+VQ@<<<@nlJ=eiIl4BJDFzW2
+!s100 YT?bGzEmcFo:DlnoC^B4_0
+R6
+32
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/lab01stuff/andg2.vhd|
+Z23 !s107 C:/Users/Carson/Desktop/lab2/lab01stuff/andg2.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R2
+R3
+DEx4 work 5 andg2 0 22 Q@<<<@nlJ=eiIl4BJDFzW2
+l32
+L31
+VJVOzCk?IH:iJ5bCRU`CK13
+!s100 I`@Z@UBObS]<7m8bPgKUS1
+R6
+32
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Edecoder5to32
+Z24 w1727473072
+R2
+R3
+R0
+Z25 8C:/Users/Carson/Desktop/lab2/decoder5to32.vhd
+Z26 FC:/Users/Carson/Desktop/lab2/decoder5to32.vhd
+l0
+L4
+VoV8CU9>LS7]gQKWCL[^hj3
+!s100 0>V`l]^7UBO_2D3YmE0fN0
+R6
+32
+Z27 !s110 1727570275
+!i10b 1
+Z28 !s108 1727570275.000000
+Z29 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/decoder5to32.vhd|
+Z30 !s107 C:/Users/Carson/Desktop/lab2/decoder5to32.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R2
+R3
+DEx4 work 12 decoder5to32 0 22 oV8CU9>LS7]gQKWCL[^hj3
+l12
+L11
+VYLJGD8;?S4`9oQ8cZ88720
+!s100 >2Ve2aAXGF=10z^1<>I1]2
+R6
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R11
+R12
+Edffg
+Z31 w1727445824
+R2
+R3
+R0
+Z32 8C:/Users/Carson/Desktop/lab2/dffg.vhd
+Z33 FC:/Users/Carson/Desktop/lab2/dffg.vhd
+l0
+L23
+V<]b9Vm3e`GAN;Cnj:57L>2
+!s100 T4gcXQGMCgKJbn8XhBM;b0
+R6
+32
+R27
+!i10b 1
+R28
+Z34 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/dffg.vhd|
+Z35 !s107 C:/Users/Carson/Desktop/lab2/dffg.vhd|
+!i113 1
+R11
+R12
+Amixed
+R2
+R3
+Z36 DEx4 work 4 dffg 0 22 <]b9Vm3e`GAN;Cnj:57L>2
+l37
+L33
+V`CHXPZKVEek`3gFWL_zFm2
+!s100 iOdlTUid@@]UimFK_53^C1
+R6
+32
+R27
+!i10b 1
+R28
+R34
+R35
+!i113 1
+R11
+R12
+Eextender
+Z37 w1727570113
+R14
+R2
+R3
+R0
+Z38 8C:/Users/Carson/Desktop/lab2/extender.vhd
+Z39 FC:/Users/Carson/Desktop/lab2/extender.vhd
+l0
+L5
+VQV[Bl<284IDYg7Sl6H5>a3
+!s100 Xa]JWW05iecgYP>Z]6gdH1
+R6
+32
+R27
+!i10b 1
+R28
+Z40 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/extender.vhd|
+Z41 !s107 C:/Users/Carson/Desktop/lab2/extender.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R14
+R2
+R3
+DEx4 work 8 extender 0 22 QV[Bl<284IDYg7Sl6H5>a3
+l14
+L13
+VN_JV13Z1]?Xo?B4k77bd80
+!s100 E<<ne4AO^nFS`73E^XLU11
+R6
+32
+R27
+!i10b 1
+R28
+R40
+R41
+!i113 1
+R11
+R12
+Efulladder
+Z42 w1727552772
+R14
+R2
+R3
+R0
+Z43 8C:/Users/Carson/Desktop/lab2/lab01stuff/fulladder.vhd
+Z44 FC:/Users/Carson/Desktop/lab2/lab01stuff/fulladder.vhd
+l0
+L5
+VeXI>f^noZkOknC3>WzI[82
+!s100 dVCXdb:R3PWz`65`9B<3P0
+R6
+32
+R7
+!i10b 1
+R8
+Z45 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/lab01stuff/fulladder.vhd|
+Z46 !s107 C:/Users/Carson/Desktop/lab2/lab01stuff/fulladder.vhd|
+!i113 1
+R11
+R12
+Astructural
+R14
+R2
+R3
+DEx4 work 9 fulladder 0 22 eXI>f^noZkOknC3>WzI[82
+l47
+L17
+VHm9T:2JzPQAP9Jce<4X7N2
+!s100 91je:0NP;=oF6ZkWiR>[Z2
+R6
+32
+R7
+!i10b 1
+R8
+R45
+R46
+!i113 1
+R11
+R12
+Einvg
+Z47 w1727554915
+R2
+R3
+R0
+Z48 8C:/Users/Carson/Desktop/lab2/lab01stuff/invg.vhd
+Z49 FC:/Users/Carson/Desktop/lab2/lab01stuff/invg.vhd
+l0
+L23
+VQ?6hb9ePk@>kZZ9k]hNSO3
+!s100 _XK?_^5z0Rm1<k12?;5R?2
+R6
+32
+R7
+!i10b 1
+R8
+Z50 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/lab01stuff/invg.vhd|
+Z51 !s107 C:/Users/Carson/Desktop/lab2/lab01stuff/invg.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R2
+R3
+DEx4 work 4 invg 0 22 Q?6hb9ePk@>kZZ9k]hNSO3
+l31
+L30
+Vch>li:oKYZkCO5]GamViK1
+!s100 bk7I76o8e1LURdoZEQb8H0
+R6
+32
+R7
+!i10b 1
+R8
+R50
+R51
+!i113 1
+R11
+R12
+Emem
+R31
+R14
+R2
+R3
+R0
+Z52 8C:/Users/Carson/Desktop/lab2/mem.vhd
+Z53 FC:/Users/Carson/Desktop/lab2/mem.vhd
+l0
+L8
+Vl8<PCiN;cU;BN3M[A<;IE3
+!s100 fRlcaiTJZJ1H;nZh;8=LI3
+R6
+32
+Z54 !s110 1727571694
+!i10b 1
+Z55 !s108 1727571694.000000
+Z56 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/mem.vhd|
+Z57 !s107 C:/Users/Carson/Desktop/lab2/mem.vhd|
+!i113 1
+R11
+R12
+Artl
+R14
+R2
+R3
+DEx4 work 3 mem 0 22 l8<PCiN;cU;BN3M[A<;IE3
+l37
+L27
+V`6^NbPhKNmSBg:`:Un8;g3
+!s100 OI8_3><BhDkT3l3n8`OXd3
+R6
+32
+R54
+!i10b 1
+R55
+R56
+R57
+!i113 1
+R11
+R12
+Emipsreg
+w1727656024
+R14
+R2
+R3
+R0
+Z58 8C:/Users/Carson/Desktop/lab2/mipsreg.vhd
+Z59 FC:/Users/Carson/Desktop/lab2/mipsreg.vhd
+l0
+L5
+Vl;OWH^MMk[Z:W2K_9c2X62
+!s100 Q3E1]>oC9`MkfRN_HQNL@2
+R6
+32
+!s110 1727656028
+!i10b 1
+!s108 1727656028.000000
+Z60 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/mipsreg.vhd|
+Z61 !s107 C:/Users/Carson/Desktop/lab2/mipsreg.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R14
+R2
+R3
+DEx4 work 7 mipsreg 0 22 l;OWH^MMk[Z:W2K_9c2X62
+l22
+L19
+VJiIe8H=lX_W5T_5VeE]o33
+!s100 3nIPo3QLeR0VUnIdgYA_c0
+R6
+32
+R27
+!i10b 1
+R28
+R60
+R61
+!i113 1
+R11
+R12
+w1727552395
+Emultiplier
+R1
+R2
+R3
+R0
+Z62 8C:/Users/Carson/Desktop/lab2/lab01stuff/Multiplier.vhd
+Z63 FC:/Users/Carson/Desktop/lab2/lab01stuff/Multiplier.vhd
+l0
+L26
+VM`5nlXMRj=RJ<2[SQ[4j43
+!s100 _?e0QXZc1];i5lJhWOb7@0
+R6
+32
+R7
+!i10b 1
+R8
+Z64 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/lab01stuff/Multiplier.vhd|
+Z65 !s107 C:/Users/Carson/Desktop/lab2/lab01stuff/Multiplier.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R2
+R3
+DEx4 work 10 multiplier 0 22 M`5nlXMRj=RJ<2[SQ[4j43
+l36
+L35
+VYAE?iTK0DiXzNzCCP:jzB2
+!s100 Q4UZP;mn^zJ6k_M>:>EDR3
+R6
+32
+R7
+!i10b 1
+R8
+R64
+R65
+!i113 1
+R11
+R12
+Emux2t1
+Z66 w1727482881
+R2
+R3
+R0
+Z67 8C:/Users/Carson/Desktop/lab2/lab01stuff/mux2t1.vhd
+Z68 FC:/Users/Carson/Desktop/lab2/lab01stuff/mux2t1.vhd
+l0
+L4
+V7V5_6TJgb_6McIC@>Wzg_0
+!s100 =D[e:0EC3V9b]Ui9@<L^E3
+R6
+32
+R7
+!i10b 1
+R8
+Z69 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/lab01stuff/mux2t1.vhd|
+Z70 !s107 C:/Users/Carson/Desktop/lab2/lab01stuff/mux2t1.vhd|
+!i113 1
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 6 mux2t1 0 22 7V5_6TJgb_6McIC@>Wzg_0
+l46
+L16
+V:VPUMWX:dV6zE6=cb]m4f3
+!s100 FFkZdRFgc[iLc??mdR=e>2
+R6
+32
+R7
+!i10b 1
+R8
+R69
+R70
+!i113 1
+R11
+R12
+Emux2t1_n
+Z71 w1727483260
+R2
+R3
+R0
+Z72 8C:/Users/Carson/Desktop/lab2/lab01stuff/mux2t1_N.vhd
+Z73 FC:/Users/Carson/Desktop/lab2/lab01stuff/mux2t1_N.vhd
+l0
+L21
+VFY=Tc@WO1TP4Z42>dBMei3
+!s100 BKZeKCAB2i6lge3>7TA3d3
+R6
+32
+R7
+!i10b 1
+R8
+Z74 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/lab01stuff/mux2t1_N.vhd|
+Z75 !s107 C:/Users/Carson/Desktop/lab2/lab01stuff/mux2t1_N.vhd|
+!i113 1
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 8 mux2t1_n 0 22 FY=Tc@WO1TP4Z42>dBMei3
+l39
+L30
+V42CUQBzm6g@LDm29Dc=NM3
+!s100 W>5MMWO2LBg`K8[P>h>Ye1
+R6
+32
+R7
+!i10b 1
+R8
+R74
+R75
+!i113 1
+R11
+R12
+Emux32to1_32bit
+Z76 w1727473738
+R2
+R3
+R0
+Z77 8C:/Users/Carson/Desktop/lab2/mux32to1_32bit.vhd
+Z78 FC:/Users/Carson/Desktop/lab2/mux32to1_32bit.vhd
+l0
+L4
+VXJV@73QL5LIgBzAbcYPMc2
+!s100 W__0i<hjdak193AedlIV53
+R6
+32
+R27
+!i10b 1
+R28
+Z79 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/mux32to1_32bit.vhd|
+Z80 !s107 C:/Users/Carson/Desktop/lab2/mux32to1_32bit.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R2
+R3
+DEx4 work 14 mux32to1_32bit 0 22 XJV@73QL5LIgBzAbcYPMc2
+l13
+L12
+VoZozL_[ain^Rl<?SV:ld[1
+!s100 7Oe^N>LzdP09UM:b5VJ5O0
+R6
+32
+R27
+!i10b 1
+R28
+R79
+R80
+!i113 1
+R11
+R12
+Emyfirstmipsdatapath
+Z81 w1727560258
+R14
+R2
+R3
+R0
+Z82 8C:/Users/Carson/Desktop/lab2/myfirstmipsdatapath.vhd
+Z83 FC:/Users/Carson/Desktop/lab2/myfirstmipsdatapath.vhd
+l0
+L6
+VZ`ZlB@0<cSJ]nDf=N[9lY3
+!s100 kYHO^oZ]laRC5jVbn0UA_0
+R6
+32
+R27
+!i10b 1
+R28
+Z84 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/myfirstmipsdatapath.vhd|
+Z85 !s107 C:/Users/Carson/Desktop/lab2/myfirstmipsdatapath.vhd|
+!i113 1
+R11
+R12
+Astructural
+R14
+R2
+R3
+DEx4 work 19 myfirstmipsdatapath 0 22 Z`ZlB@0<cSJ]nDf=N[9lY3
+l71
+L27
+VdS`lFPlI98C]Xh4fP>d@03
+!s100 0_VOW7dLVEa9^CTl0CB@83
+R6
+32
+R27
+!i10b 1
+R28
+R84
+R85
+!i113 1
+R11
+R12
+Enbitreg
+Z86 w1727470999
+R2
+R3
+R0
+Z87 8C:/Users/Carson/Desktop/lab2/nbitereg.vhd
+Z88 FC:/Users/Carson/Desktop/lab2/nbitereg.vhd
+l0
+L6
+V5;`6T^>HmHdm`209lL<f;1
+!s100 A?j^_2f68UM9YSW<IS1GZ0
+R6
+32
+Z89 !s110 1728404132
+!i10b 1
+Z90 !s108 1728404132.000000
+Z91 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/nbitereg.vhd|
+Z92 !s107 C:/Users/Carson/Desktop/lab2/nbitereg.vhd|
+!i113 1
+R11
+R12
+Astructural
+R36
+R2
+R3
+Z93 DEx4 work 7 nbitreg 0 22 5;`6T^>HmHdm`209lL<f;1
+l24
+L23
+Vb4C=FEbIjQz<BRR;>[lea3
+!s100 ][^NnR@Sc^^6NF6aT936V2
+R6
+32
+R89
+!i10b 1
+R90
+R91
+R92
+!i113 1
+R11
+R12
+Eones_compliment
+R42
+R14
+R2
+R3
+R0
+Z94 8C:/Users/Carson/Desktop/lab2/lab01stuff/OnesCompliment.vhd
+Z95 FC:/Users/Carson/Desktop/lab2/lab01stuff/OnesCompliment.vhd
+l0
+L5
+V[[6lhW]l^43Xna5IU6mJ81
+!s100 zLk42_>X]]jklIW]18=>22
+R6
+32
+R7
+!i10b 1
+R8
+Z96 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/lab01stuff/OnesCompliment.vhd|
+Z97 !s107 C:/Users/Carson/Desktop/lab2/lab01stuff/OnesCompliment.vhd|
+!i113 1
+R11
+R12
+Astructural
+R14
+R2
+R3
+DEx4 work 15 ones_compliment 0 22 [[6lhW]l^43Xna5IU6mJ81
+l29
+L14
+VIC3`X1H572l8h20T^mR>M3
+!s100 c^oC::AFm;`F0GP>Imnbg2
+R6
+32
+R7
+!i10b 1
+R8
+R96
+R97
+!i113 1
+R11
+R12
+Eorg2
+Z98 w1727554998
+R2
+R3
+R0
+Z99 8C:/Users/Carson/Desktop/lab2/lab01stuff/org2.vhd
+Z100 FC:/Users/Carson/Desktop/lab2/lab01stuff/org2.vhd
+l0
+L23
+V[C`FCj=kL0CTBYLlbjJzD3
+!s100 bGQ1F9eW^Q17OoL9h4g7z2
+R6
+32
+R7
+!i10b 1
+R8
+Z101 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/lab01stuff/org2.vhd|
+Z102 !s107 C:/Users/Carson/Desktop/lab2/lab01stuff/org2.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R2
+R3
+DEx4 work 4 org2 0 22 [C`FCj=kL0CTBYLlbjJzD3
+l32
+L31
+VNHGn>Kh:]BEh4o]ImiG<d3
+!s100 h5_AzR3TdRA0a_K=dQ>mI2
+R6
+32
+R7
+!i10b 1
+R8
+R101
+R102
+!i113 1
+R11
+R12
+Eripple_carry_adder
+R42
+R14
+R2
+R3
+R0
+Z103 8C:/Users/Carson/Desktop/lab2/lab01stuff/nbitripplecarryadder.vhd
+Z104 FC:/Users/Carson/Desktop/lab2/lab01stuff/nbitripplecarryadder.vhd
+l0
+L5
+V3^`A>ATOa[=9z[5k^5B5U1
+!s100 `eLlkzOE0ePPDKn?Z?UPS3
+R6
+32
+R7
+!i10b 1
+R8
+Z105 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/lab01stuff/nbitripplecarryadder.vhd|
+Z106 !s107 C:/Users/Carson/Desktop/lab2/lab01stuff/nbitripplecarryadder.vhd|
+!i113 1
+R11
+R12
+Astructural
+R14
+R2
+R3
+DEx4 work 18 ripple_carry_adder 0 22 3^`A>ATOa[=9z[5k^5B5U1
+l35
+L21
+V1g><CGX`D_1FegbOXgzDD2
+!s100 _;JVjZhXJSCmkMk;@?T8R0
+R6
+32
+R7
+!i10b 1
+R8
+R105
+R106
+!i113 1
+R11
+R12
+Esimplifiedmipsprocessor
+Z107 w1728411593
+R14
+R2
+R3
+R0
+Z108 8C:/Users/Carson/Desktop/lab2/simplifiedmipsprocessor.vhd
+Z109 FC:/Users/Carson/Desktop/lab2/simplifiedmipsprocessor.vhd
+l0
+L5
+Vg>biTOO_?3Ri1cH0FMYmi0
+!s100 9?4X>T84H9E;JSzbim_nl1
+R6
+32
+Z110 !s110 1728411630
+!i10b 1
+Z111 !s108 1728411630.000000
+Z112 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/simplifiedmipsprocessor.vhd|
+Z113 !s107 C:/Users/Carson/Desktop/lab2/simplifiedmipsprocessor.vhd|
+!i113 1
+R11
+R12
+Astructural
+R14
+R2
+R3
+Z114 DEx4 work 23 simplifiedmipsprocessor 0 22 g>biTOO_?3Ri1cH0FMYmi0
+l74
+L24
+VnEdZCUVVO8cZ^AEO5CYgn2
+!s100 5ebhP8AL3K5cokGX7_hdB1
+R6
+32
+R110
+!i10b 1
+R111
+R112
+R113
+!i113 1
+R11
+R12
+Etb_decoder5to32
+Z115 w1727473230
+R2
+R3
+R0
+Z116 8C:/Users/Carson/Desktop/lab2/tb_decoder5to32.vhd
+Z117 FC:/Users/Carson/Desktop/lab2/tb_decoder5to32.vhd
+l0
+L4
+VMbPdL;CZK?B30T8ab^><90
+!s100 iQmLXJVKc^^jZ7R0VKfXL0
+R6
+32
+R27
+!i10b 1
+R28
+Z118 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/tb_decoder5to32.vhd|
+Z119 !s107 C:/Users/Carson/Desktop/lab2/tb_decoder5to32.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R2
+R3
+DEx4 work 15 tb_decoder5to32 0 22 MbPdL;CZK?B30T8ab^><90
+l21
+L8
+V<GR76@8]P1PRJ>k]:nZWg1
+!s100 9HX=_<B>^lO5eQ3fLYe>B3
+R6
+32
+R27
+!i10b 1
+R28
+R118
+R119
+!i113 1
+R11
+R12
+Etb_dffg
+R31
+R2
+R3
+R0
+Z120 8C:/Users/Carson/Desktop/lab2/tb_dffg.vhd
+Z121 FC:/Users/Carson/Desktop/lab2/tb_dffg.vhd
+l0
+L23
+VEhC826iNlPK<H5[>Kb68Y3
+!s100 _@1Y`b4>C@@3dFKeCkFbz1
+R6
+32
+R27
+!i10b 1
+R28
+Z122 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/tb_dffg.vhd|
+Z123 !s107 C:/Users/Carson/Desktop/lab2/tb_dffg.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R2
+R3
+DEx4 work 7 tb_dffg 0 22 EhC826iNlPK<H5[>Kb68Y3
+l45
+L27
+VLD2Ne7]eIUQBQzKVG@e681
+!s100 McQ;1U@Ti8TCBh>42ldW82
+R6
+32
+R27
+!i10b 1
+R28
+R122
+R123
+!i113 1
+R11
+R12
+Etb_dmem
+Z124 w1727569762
+R14
+R2
+R3
+R0
+Z125 8C:/Users/Carson/Desktop/lab2/tb_dmem.vhd
+Z126 FC:/Users/Carson/Desktop/lab2/tb_dmem.vhd
+l0
+L5
+VokQAHoLeOWS<MYI4]E?l:3
+!s100 `;ZC6AZKP3e3Mlck^c]LG2
+R6
+32
+R27
+!i10b 1
+R28
+Z127 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/tb_dmem.vhd|
+Z128 !s107 C:/Users/Carson/Desktop/lab2/tb_dmem.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R2
+R3
+DEx4 work 7 tb_dmem 0 22 okQAHoLeOWS<MYI4]E?l:3
+l44
+L8
+VEKGLazHNainX0b7:bzI@H2
+!s100 cY@426z51a>3;DDah8N@=0
+R6
+32
+R27
+!i10b 1
+R28
+R127
+R128
+!i113 1
+R11
+R12
+Etb_mipsreg
+Z129 w1727552006
+R14
+R2
+R3
+R0
+Z130 8C:/Users/Carson/Desktop/lab2/tb_mipsreg.vhd
+Z131 FC:/Users/Carson/Desktop/lab2/tb_mipsreg.vhd
+l0
+L6
+Vc5K:End5NXV360]hYh`IX2
+!s100 [cd>?RM_Vn=^g15:F8_mk3
+R6
+32
+R27
+!i10b 1
+R28
+Z132 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/tb_mipsreg.vhd|
+Z133 !s107 C:/Users/Carson/Desktop/lab2/tb_mipsreg.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R14
+R2
+R3
+DEx4 work 10 tb_mipsreg 0 22 c5K:End5NXV360]hYh`IX2
+l40
+L10
+VEk>0GV48iAKMSRR?;VDZe0
+!s100 YVg<cF19?=KH`[UJIAmzM3
+R6
+32
+R27
+!i10b 1
+R28
+R132
+R133
+!i113 1
+R11
+R12
+Etb_mux32to1_32bit
+Z134 w1727473814
+R2
+R3
+R0
+Z135 8C:/Users/Carson/Desktop/lab2/tb_mux32to1_32bit.vhd
+Z136 FC:/Users/Carson/Desktop/lab2/tb_mux32to1_32bit.vhd
+l0
+L4
+V=zP=lz]l9[P4z;LFaB:Je2
+!s100 ccQ4Hf:VaIAgSl9`Z`00S0
+R6
+32
+R27
+!i10b 1
+R28
+Z137 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/tb_mux32to1_32bit.vhd|
+Z138 !s107 C:/Users/Carson/Desktop/lab2/tb_mux32to1_32bit.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R2
+R3
+DEx4 work 17 tb_mux32to1_32bit 0 22 =zP=lz]l9[P4z;LFaB:Je2
+l22
+L7
+VSg9=:9Tzcb8TU=UVEZZlU3
+!s100 Vidh123^a[[ADRc?jMl5S0
+R6
+32
+R27
+!i10b 1
+R28
+R137
+R138
+!i113 1
+R11
+R12
+Etb_myfirstmipsdatapath
+Z139 w1727560144
+R14
+R2
+R3
+R0
+Z140 8C:/Users/Carson/Desktop/lab2/tb_myfirstmipsdatapath.vhd
+Z141 FC:/Users/Carson/Desktop/lab2/tb_myfirstmipsdatapath.vhd
+l0
+L6
+VHiB7F?AO4mJ1Qd6J4a]FQ3
+!s100 6lAB9d4[@3D;O[E6DV2Pa3
+R6
+32
+R27
+!i10b 1
+R28
+Z142 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/tb_myfirstmipsdatapath.vhd|
+Z143 !s107 C:/Users/Carson/Desktop/lab2/tb_myfirstmipsdatapath.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R2
+R3
+DEx4 work 22 tb_myfirstmipsdatapath 0 22 HiB7F?AO4mJ1Qd6J4a]FQ3
+l49
+L10
+V6FN=5aRJYJ9eB]JnG3O]02
+!s100 YQ@B>Mm^na>G`U7NZ:@_l1
+R6
+32
+R27
+!i10b 1
+R28
+R142
+R143
+!i113 1
+R11
+R12
+Etb_nbitreg
+Z144 w1727472871
+R2
+R3
+R0
+Z145 8C:/Users/Carson/Desktop/lab2/tb_nbitreg.vhd
+Z146 FC:/Users/Carson/Desktop/lab2/tb_nbitreg.vhd
+l0
+L4
+VQ_V8o^f`D72Zz=UDh^74Q0
+!s100 VbC]D<?j^mjO11R;h@Cg72
+R6
+32
+R27
+!i10b 1
+R28
+Z147 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/tb_nbitreg.vhd|
+Z148 !s107 C:/Users/Carson/Desktop/lab2/tb_nbitreg.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R93
+R2
+R3
+DEx4 work 10 tb_nbitreg 0 22 Q_V8o^f`D72Zz=UDh^74Q0
+l21
+L7
+VTl<Jo;bOh3_DRHDOilUk=0
+!s100 Rf^Bie2W_X=59AN9ESlEV0
+R6
+32
+R27
+!i10b 1
+R28
+R147
+R148
+!i113 1
+R11
+R12
+Etb_simplifiedmipsprocessor
+Z149 w1728403544
+R14
+R2
+R3
+R0
+Z150 8C:/Users/Carson/Desktop/lab2/tb_simplifiedmipsprocessor.vhd
+Z151 FC:/Users/Carson/Desktop/lab2/tb_simplifiedmipsprocessor.vhd
+l0
+L5
+VhWlN[<<R^2Wz5Y^L9:GbF1
+!s100 ^9>GJ0hcVMlU<H^zdX]I@3
+R6
+32
+Z152 !s110 1728411643
+!i10b 1
+Z153 !s108 1728411643.000000
+Z154 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/tb_simplifiedmipsprocessor.vhd|
+Z155 !s107 C:/Users/Carson/Desktop/lab2/tb_simplifiedmipsprocessor.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R2
+R3
+Z156 DEx4 work 26 tb_simplifiedmipsprocessor 0 22 hWlN[<<R^2Wz5Y^L9:GbF1
+l49
+L8
+VYRFZI6oMQZRJR7O[gDBZE3
+!s100 a`6=f_[38]FC:[j:iCSo13
+R6
+32
+R152
+!i10b 1
+R153
+R154
+R155
+!i113 1
+R11
+R12
+Exorg2
+Z157 w1727554958
+R2
+R3
+R0
+Z158 8C:/Users/Carson/Desktop/lab2/lab01stuff/xorg2.vhd
+Z159 FC:/Users/Carson/Desktop/lab2/lab01stuff/xorg2.vhd
+l0
+L23
+V;hb`C0MKik;h36`3`SzM60
+!s100 [hI[mXFH4_j16U;>U1Lfn2
+R6
+32
+R7
+!i10b 1
+R8
+Z160 !s90 -reportprogress|300|-work|work|C:/Users/Carson/Desktop/lab2/lab01stuff/xorg2.vhd|
+Z161 !s107 C:/Users/Carson/Desktop/lab2/lab01stuff/xorg2.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R2
+R3
+DEx4 work 5 xorg2 0 22 ;hb`C0MKik;h36`3`SzM60
+l32
+L31
+VbmLohbkYjJQ`?EHUY>LoL1
+!s100 Z6[FAPS4fBLB`F?OO<AY72
+R6
+32
+R7
+!i10b 1
+R8
+R160
+R161
+!i113 1
+R11
+R12

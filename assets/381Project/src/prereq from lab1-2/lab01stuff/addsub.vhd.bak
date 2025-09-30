@@ -1,0 +1,99 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity addsub is
+	generic (N : integer := 32);
+	Port(
+		A : in STD_LOGIC_VECTOR(N-1 downto 0);
+		B : in STD_LOGIC_VECTOR(N-1 downto 0);
+		nAdd_Sub : in STD_LOGIC;
+		O : out STD_LOGIC_VECTOR(N-1 downto 0);
+		O_Carry : out STD_LOGIC;
+	);
+end addsub;
+
+
+architecture Structural of addsub is 
+
+signal selected : STD_LOGIC_VECTOR(N-1 downto 0);
+signal inverted : STD_LOGIC_VECTOR(N-1 downto 0);
+signal A_MSB, B_MSB, O_MSB : STD_LOGIC;
+signal output : STD_LOGIC_VECTOR(N-1 downto 0);
+
+
+
+component ones_compliment 
+	generic (N : integer := 32);
+	port(
+		i_N : in STD_LOGIC_VECTOR(N-1 downto 0);
+		o_Count : out STD_LOGIC_VECTOR(N-1 downto 0)
+	);
+end component;
+
+component mux2t1_n
+	generic (N : integer := 32);
+	port (
+		i_D0 : in STD_LOGIC_VECTOR(N-1 downto 0);
+		i_D1 : in STD_LOGIC_VECTOR(N-1 downto 0);
+		i_S : in STD_LOGIC;
+		o_O : out STD_LOGIC_VECTOR(N-1 downto 0)
+	);
+end component;
+
+component ripple_carry_adder
+	generic (N : integer := 32);
+	port ( 
+		i_A : in STD_LOGIC_VECTOR(N-1 downto 0);
+		i_B : in STD_LOGIC_VECTOR(N-1 downto 0);
+		C_in : in STD_LOGIC;
+		S : out STD_LOGIC_VECTOR(N-1 downto 0);
+		C_out : out STD_LOGIC
+	);
+end component;
+
+
+begin
+
+	invBits: ones_compliment
+	generic map (N => N)
+	port map (
+		i_N => B,
+		o_Count => inverted
+	);
+
+	control: mux2t1_n
+	generic map (N => N)
+	port map (
+		i_D0 => b,
+		i_D1 => inverted,
+		i_S => nAdd_Sub,
+		o_O => selected
+	);
+
+
+	adder: ripple_carry_adder
+	generic map (N => N)
+	port map (
+		i_A => A,
+		i_B => selected,
+		C_in => nAdd_Sub,
+		S => output,
+		C_out => o_Carry
+	);
+
+
+	--Output
+	O <= output;
+
+
+	--Overflow Detection
+	A_MSB <= A(N-1);
+	B_MSB <= selected(N-1);
+	O_MSB <= output(N-1);
+
+	--overflow logic
+	--addition A_MSB = B_MSB and O_MSB /= A_MSB
+	--sub A_MSB /= B_MSB and O_MSB = B_MSB
+
+end Structural;

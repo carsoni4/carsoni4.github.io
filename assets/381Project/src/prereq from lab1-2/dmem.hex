@@ -1,0 +1,14 @@
+// dmem.hex - Memory Initialization File
+
+FFFFFFFF  // Address 0: -1
+00000002  // Address 1: 2
+FFFFFFFD  // Address 2: -3
+00000004  // Address 3: 4
+00000005  // Address 4: 5
+00000006  // Address 5: 6
+FFFFFFF9  // Address 6: -7
+FFFFFFF8  // Address 7: -8
+00000009  // Address 8: 9
+FFFFFFF6  // Address 9: -10
+
+// Optionally, specify additional addresses if needed using '@' notation
