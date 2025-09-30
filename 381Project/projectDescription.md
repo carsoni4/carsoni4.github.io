@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: COMS 3090 Project Description
+title: CPRE 381 Project Description
 ---
 
 My group was tasked with creating a 32 bit MIPS capable Pipelined, Multi-Cycle, Single Cycle CPU's in VHDL. This was
