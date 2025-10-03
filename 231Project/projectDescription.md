@@ -16,7 +16,7 @@ Hard lessons in secure configuration: strong passwords, account lockouts, patchi
 Improved incident reporting skills.
 
 <details>
-  <summary style="font-size:1.1em; font-weight:bold; cursor:pointer;">Lab Report PDF (click to open)</summary>
+  <summary style="font-size:1.1em; font-weight:bold; cursor:pointer;">Lab Report PDF</summary>
 
   <div id="pdf-wrapper" style="margin-top:1rem; width:100%; height:80vh; max-height:900px;"></div>
 </details>
