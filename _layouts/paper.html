@@ -5,24 +5,25 @@
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <style>
-    /* Top nav bar */
+    /* Code blocks */
     pre {
-  background-color: #2d2d2d;  /* dark background for code */
-  color: #f8f8f2;             /* light text */
-  padding: 15px;
-  overflow-x: auto;
-  border-radius: 5px;
-  font-family: 'Fira Code', monospace;
-  }
+      background-color: #2d2d2d;  /* dark background for code */
+      color: #f8f8f2;             /* light text */
+      padding: 15px;
+      overflow-x: auto;
+      border-radius: 5px;
+      font-family: 'Fira Code', monospace;
+    }
 
-  code {
-  font-family: 'Fira Code', monospace;
-  }
+    code {
+      font-family: 'Fira Code', monospace;
+    }
 
-  pre code {
-  color: inherit;
-  }
+    pre code {
+      color: inherit;
+    }
 
+    /* Top nav bar */
     nav {
       background-color: #1e1e1e;
       color: #e0e0e0;
@@ -32,13 +33,38 @@
       align-items: center;
       font-weight: bold;
     }
-    nav a {
+
+    /* General link styles */
+    a {
       color: #80cbc4;
       text-decoration: none;
-      margin-left: 15px;
+      position: relative;
+      transition: color 0.3s ease;
     }
-    nav a:hover {
-      text-decoration: underline;
+
+    /* Sliding underline */
+    a::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 2px;
+      left: 0;
+      bottom: -3px;
+      background-color: #80cbc4;
+      transition: width 0.3s ease;
+    }
+
+    a:hover {
+      color: #a7ffeb; /* lighter teal on hover */
+    }
+
+    a:hover::after {
+      width: 100%; /* animate underline expansion */
+    }
+
+    /* Nav spacing */
+    nav a {
+      margin-left: 15px;
     }
 
     /* Paper content */
