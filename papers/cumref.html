@@ -3,9 +3,22 @@ layout: paper
 title: Cumulative Reflection
 ---
 
-<iframe src="{{ '/assets/paper/cumref.pdf' | relative_url }}" 
-        width="100%" height="800px">
-  This browser does not support PDFs. Please download the PDF to view it: 
-  <a href="{{ '/assets/paper/cumref.pdf' | relative_url }}">Download PDF</a>.
-</iframe>
+<details>
+  <summary style="font-size:1.1em; font-weight:bold; cursor:pointer;">View PDF</summary>
+  <div id="cumref-pdf-wrapper" style="margin-top:1rem; width:100%; height:80vh; max-height:900px;"></div>
+</details>
+
+<!-- PDFObject JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.8/pdfobject.min.js"></script>
+<script>
+  document.querySelector('details').addEventListener('toggle', function(e) {
+    if (!this.open) return;
+
+    PDFObject.embed(
+      "{{ '/assets/paper/cumref.pdf' | relative_url }}",
+      "#cumref-pdf-wrapper",
+      { height: "100%", width: "100%", fallbackLink: "<p>This browser does not support PDFs. <a href='{{ '/assets/paper/cumref.pdf' | relative_url }}'>Download PDF</a>.</p>" }
+    );
+  }, { once: true });
+</script>
 
