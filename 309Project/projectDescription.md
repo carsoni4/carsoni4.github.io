@@ -3,7 +3,7 @@ layout: paper
 title: COMS 3090 Project Description
 ---
 
-My Group and I were tasked in creating an Android App with a Java Backend. 
+My Group and I were tasked in creating an Android app that we would find helpful.
 We ended up making Supper Solvers, a TikTok-like app where you can find recipes recommended based on your ingredients. We used Spring Boot for the backend REST API and database integration. I was responsible for working on the backend along with one other teammate. Included below are some relevant snippits of my code and a picture of the application. If you would like the entire source code it
 can be found [here.](https://github.com/carsoni4/Supper-Solver)
 

@@ -4,13 +4,14 @@ title: Senior Design Project
 ---
 
 Our project focuses on designing and developing a smart, AI-enabled aquarium system that automates and optimizes fish 
-care and water management. Traditional aquarium maintenance requires frequent manual monitoring of water quality and
-fish health, which can lead to inconsistent care and stress for aquatic life. To address this, we plan to build an 
-integrated system combining sensors, actuators, and artificial intelligence for real-time water quality monitoring 
-(temperature, pH, dissolved oxygen, turbidity), automated temperature and flow regulation, AI-driven feeding schedules, 
-and computer vision for fish counting and growth tracking. A web-based dashboard will allow users to visualize data trends,
-receive alerts, and remotely manage the system. The expected outcome is a fully functional prototype that demonstrates improved
-fish welfare, reduced manual effort, and the feasibility of AI- and IoT-enabled aquaculture management.
+care and water management. I will be responsible for the backend/ AI training part of the project. 
+Traditional aquarium maintenance requires frequent manual monitoring of water quality and fish health, which can lead 
+to inconsistent care and stress for aquatic life. To address this, we plan to build an integrated system combining sensors,
+actuators, and artificial intelligence for real-time water quality monitoring (temperature, pH, dissolved oxygen, turbidity), 
+automated temperature and flow regulation, AI-driven feeding schedules, and computer vision for fish counting and growth tracking.
+A web-based dashboard will allow users to visualize data trends,receive alerts, and remotely manage the system. The expected outcome
+is a fully functional prototype that demonstrates improved fish welfare, reduced manual effort, and the feasibility of AI and IoT-enabled
+aquaculture management.
 
 <details>
   <summary style="font-size:1.1em; font-weight:bold; cursor:pointer;">Frontend Information</summary>
