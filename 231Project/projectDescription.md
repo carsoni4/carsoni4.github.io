@@ -19,11 +19,6 @@ Improved incident reporting skills.
   <summary style="font-size:1.1em; font-weight:bold; cursor:pointer;">Lab Report PDF (click to open)</summary>
 
   <div id="pdf-wrapper" style="margin-top:1rem; width:100%; height:80vh; max-height:900px;"></div>
-
-  <div style="margin-top:12px; font-size:0.95rem; color:#bfbfbf;">
-    If your browser can't render the PDF here, 
-    <a href="{{ '/assets/231Project/231.pdf' | relative_url }}" target="_blank" rel="noopener">download the PDF</a>.
-  </div>
 </details>
 
 <!-- PDFObject JS -->
