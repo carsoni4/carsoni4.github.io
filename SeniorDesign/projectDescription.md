@@ -41,5 +41,26 @@ app.Run();
     </pre>
 </details>
 
+<details>
+  <summary style="font-size:1.1em; font-weight:bold; cursor:pointer;">Report 1 PDF</summary>
+
+  <div id="pdf-wrapper" style="margin-top:1rem; width:100%; height:80vh; max-height:900px;"></div>
+</details>
+
+<!-- PDFObject JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.8/pdfobject.min.js"></script>
+<script>
+  document.querySelector('details').addEventListener('toggle', function(e) {
+    if (!this.open) return;
+
+    PDFObject.embed(
+      "{{ '/assets/SeniorDesign/report1.pdf' | relative_url }}", 
+      "#pdf-wrapper",
+      { height: "100%", width: "100%", fallbackLink: "<p>This browser does not support PDFs. <a href='{{ '/assets/SeniorDesign/report1.pdf' | relative_url }}'>Download PDF</a>.</p>" }
+    );
+  }, { once: true });
+</script>
+
+
 
     
