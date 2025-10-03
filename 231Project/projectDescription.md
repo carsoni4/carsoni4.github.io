@@ -17,11 +17,13 @@ Improved incident reporting skills.
 
 <details>
     <summary style="font-size:1.5em; font-weight:bold;">Lab Report PDF</summary>
-    <iframe src="{{ '/assets/231Project/231.pdf' | relative_url }}" 
-        width="100%" height="800px">
-    This browser does not support PDFs. Please download the PDF to view it: 
-    <a href="{{ ''/assets/231Project/231.pdf' | relative_url }}">Download PDF</a>.
-    </iframe>
+    <div style="overflow: auto; -webkit-overflow-scrolling: touch; height: 800px;">
+        <iframe src="{{ '/assets/231Project/231.pdf' | relative_url }}" 
+            width="100%" height="800px">
+            This browser does not support PDFs. Please download the PDF to view it: 
+            <a href="{{ ''/assets/231Project/231.pdf' | relative_url }}">Download PDF</a>.
+        </iframe>
+    </div>
 </details>
 
     
