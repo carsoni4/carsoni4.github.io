@@ -2,7 +2,14 @@
 layout: default
 title: Carson Irving Portfolio
 ---
-<h1 style="text-align: center;">Welcome To Carson Irving's Portfolio</h1>
+
+<!-- Header with title and logo -->
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 40px;">
+  <h1 style="margin: 0;">Welcome To Carson Irving's Portfolio</h1>
+  <img src="{{ '/assets/islogo.png' | relative_url }}" 
+       alt="College Logo" 
+       style="height: 100px; object-fit: contain;">
+</div>
 
 # Projects
 
@@ -32,9 +39,3 @@ title: Carson Irving Portfolio
 - [General Education Reflection](papers/genref.html)
 - [Cumulative Reflection](papers/cumref.html)
 
-
-
-
-
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
