@@ -13,22 +13,23 @@ receive alerts, and remotely manage the system. The expected outcome is a fully 
 fish welfare, reduced manual effort, and the feasibility of AI- and IoT-enabled aquaculture management.
 
 <details>
-    <summary style="font-size:1.5em; font-weight:bold;">Frontend Information</summary>
-    <p>
-    While my team has not decided on a frontend solution yet I have put my hat in the ring for sveltejs (web) and
-    svelte native (app). We are not 100% sure that an application is going to be plausible to develop on top of the web environment,
-    but I think that using svelte js and native for the frameworks will make it a consistent development experience.
-    </p>
+  <summary style="font-size:1.1em; font-weight:bold; cursor:pointer;">Frontend Information</summary>
+  <p>
+    While my team has not decided on a frontend solution yet I have put my hat in the ring for SvelteJS (web) and
+    Svelte Native (app). We are not 100% sure that an application is going to be plausible to develop on top of the web environment,
+    but I think that using SvelteJS and Native for the frameworks will make it a consistent development experience.
+  </p>
 </details>
 
 <details>
-    <summary style="font-size:1.5em; font-weight:bold;">Backend Information</summary>
-    <p>
-    Below is an example of the .NET WEB API, which is what we are using for the backend of the project. While we 
-    have not started actual backend development below is an example of a simple http request handler for recieving temperature
-    information from the arduino. While I do not have the request made to request from the arduino, as we do not have the hardware yet,      this demostrates the general idea. [Though it will have to be async as it is waiting on the arduino] 
-    </p>
-    <pre style="background-color:#2d2d2d;color:#c678dd;padding:10px;border-radius:5px;overflow-x:auto;font-family:monospace;">
+  <summary style="font-size:1.1em; font-weight:bold; cursor:pointer;">Backend Information</summary>
+  <p>
+    Below is an example of the .NET Web API, which is what we are using for the backend of the project. While we 
+    have not started actual backend development, below is an example of a simple HTTP request handler for receiving temperature
+    information from the Arduino. While I do not have the request made to request from the Arduino, as we do not have the hardware yet,
+    this demonstrates the general idea. [Though it will have to be async as it is waiting on the Arduino] 
+  </p>
+  <pre style="background-color:#2d2d2d;color:#c678dd;padding:10px;border-radius:5px;overflow-x:auto;font-family:monospace;">
 app.MapGet("/tanktemperature", () =>
 {
     //TODO HTTP GET REQUEST TO ARDUINO BACKEND
@@ -38,29 +39,30 @@ app.MapGet("/tanktemperature", () =>
 .WithName("GetTankTemperature");
 
 app.Run();
-    </pre>
+  </pre>
 </details>
 
 <details>
   <summary style="font-size:1.1em; font-weight:bold; cursor:pointer;">Report 1 PDF</summary>
-
-  <div id="pdf-wrapper" style="margin-top:1rem; width:100%; height:80vh; max-height:900px;"></div>
+  <div id="seniordesign-pdf-wrapper" style="margin-top:1rem; width:100%; height:80vh; max-height:900px;"></div>
 </details>
 
 <!-- PDFObject JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.8/pdfobject.min.js"></script>
 <script>
-  document.querySelector('details').addEventListener('toggle', function(e) {
-    if (!this.open) return;
+  document.querySelectorAll('details').forEach(function(detail) {
+    detail.addEventListener('toggle', function(e) {
+      if (!this.open) return;
 
-    PDFObject.embed(
-      "{{ '/assets/SeniorDesign/report1.pdf' | relative_url }}", 
-      "#pdf-wrapper",
-      { height: "100%", width: "100%", fallbackLink: "<p>This browser does not support PDFs. <a href='{{ '/assets/SeniorDesign/report1.pdf' | relative_url }}'>Download PDF</a>.</p>" }
-    );
-  }, { once: true });
+      const pdfWrapper = this.querySelector('div[id$="-pdf-wrapper"]');
+      if (!pdfWrapper) return;
+
+      PDFObject.embed(
+        "{{ '/assets/SeniorDesign/report1.pdf' | relative_url }}", 
+        "#" + pdfWrapper.id,
+        { height: "100%", width: "100%", fallbackLink: "<p>This browser does not support PDFs. <a href='{{ '/assets/SeniorDesign/report1.pdf' | relative_url }}'>Download PDF</a>.</p>" }
+      );
+    }, { once: true });
+  });
 </script>
 
-
-
-    
