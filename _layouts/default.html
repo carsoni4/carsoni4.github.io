@@ -1,48 +1,74 @@
-<style>
-  /* Top nav bar */
-  nav {
-    background-color: #1e1e1e;
-    color: #e0e0e0;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: bold;
-  }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <style>
+    /* Top nav bar */
+    nav {
+      background-color: #1e1e1e;
+      color: #e0e0e0;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: bold;
+    }
 
-  nav a {
-    color: #80cbc4;
-    text-decoration: none;
-    margin-left: 15px;
-    position: relative;
-    transition: color 0.3s ease; /* smooth color change */
-  }
+    /* General link styles */
+    a {
+      color: #80cbc4;
+      text-decoration: none;
+      position: relative;
+      transition: color 0.3s ease;
+    }
 
-  /* Animated underline */
-  nav a::after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    left: 0;
-    bottom: -3px;
-    background-color: #80cbc4;
-    transition: width 0.3s ease;
-  }
+    /* Sliding underline */
+    a::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 2px;
+      left: 0;
+      bottom: -3px;
+      background-color: #80cbc4;
+      transition: width 0.3s ease;
+    }
 
-  nav a:hover {
-    color: #a7ffeb; /* subtle lighter teal */
-  }
+    a:hover {
+      color: #a7ffeb; /* lighter teal on hover */
+    }
 
-  nav a:hover::after {
-    width: 100%; /* animate underline expansion */
-  }
+    a:hover::after {
+      width: 100%; /* animate underline expansion */
+    }
 
-  /* Paper content */
-  .content {
-    max-width: 800px;
-    margin: 60px auto 100px auto; /* leave space for nav and footer */
-    padding: 0 20px;
-  }
-</style>
+    /* Nav spacing */
+    nav a {
+      margin-left: 15px;
+    }
+
+    /* Paper content */
+    .content {
+      max-width: 800px;
+      margin: 60px auto 100px auto; /* leave space for nav and footer */
+      padding: 0 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div>{{ site.title }}</div>
+    <div>
+      <a href="{{ '/' | relative_url }}">Home</a>
+    </div>
+  </nav>
+  {{ content }}
+  <footer>
+    Email: <a href="mailto:carsoni@iastate.edu">carsoni@iastate.edu</a> Phone: 641-820-1447
+  </footer>
+</body>
+</html>
 
