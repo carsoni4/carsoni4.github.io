@@ -8,7 +8,7 @@ title: Carson Irving Portfolio
   <h1 style="margin: 0;">Welcome To Carson Irving's Portfolio</h1>
   <img src="{{ '/assets/islogo.png' | relative_url }}" 
        alt="College Logo" 
-       style="height: 100px; object-fit: contain;">
+       style="height: 200px; object-fit: contain;">
 </div>
 
 # Projects
