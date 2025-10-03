@@ -14,9 +14,13 @@ title: Carson Irving Portfolio
 
 - [Resume](resume/resume.html)
 
+# Internship Experience
+
+- [Weiler Products](internship/internship.md)
+
 # Career Objectives
 
-- [Career Objectives](papers/careerobjectives.md)
+- [Career Objectives](career/careerobjectives.md)
 
 # Ethics Paper
 
