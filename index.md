@@ -9,6 +9,7 @@ title: Carson Irving Portfolio
 - [Senior Design - AI Intregated Aquarium Management](SeniorDesign/projectDescription.md)
 - [COMS 3090 - Java Backend For Android App](309Project/projectDescription.md)
 - [CPRE 3810 - MIPS 32 Bit Processor Designed in VHDL](381Project/projectDescription.md)
+- [CYBE 2310 - Fictional Hospital Pen Test and Report](231Project/projectDescription.md)
 
 # Resume
 
