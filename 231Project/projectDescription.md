@@ -15,66 +15,28 @@ Hard lessons in secure configuration: strong passwords, account lockouts, patchi
 
 Improved incident reporting skills.
 
-<details id="pdf-details">
-  <summary style="font-size:1.1em; font-weight:bold; cursor: pointer;">Lab Report PDF (click to open)</summary>
+<details>
+  <summary style="font-size:1.1em; font-weight:bold; cursor:pointer;">Lab Report PDF (click to open)</summary>
 
-  <div id="pdf-wrapper" style="margin-top: 1rem;" data-pdf="{{ '/assets/231Project/231.pdf' | relative_url }}">
-    <div id="pdf-viewer" style="width:100%; height:80vh; max-height:900px; border-radius:8px; background:#141414; padding:12px; overflow:auto; -webkit-overflow-scrolling: touch;">
-      <div id="pdf-loading" style="color:#cfcfcf; text-align:center; padding:30px 0;">Loading PDF…</div>
-    </div>
+  <div id="pdf-wrapper" style="margin-top:1rem; width:100%; height:80vh; max-height:900px;"></div>
 
-    <div style="margin-top:12px; color:#bfbfbf; font-size:0.95rem;">
-      If your browser can't render the PDF here, <a href="{{ '/assets/231Project/231.pdf' | relative_url }}" rel="noopener" target="_blank">download the PDF</a>.
-    </div>
+  <div style="margin-top:12px; font-size:0.95rem; color:#bfbfbf;">
+    If your browser can't render the PDF here, 
+    <a href="{{ '/assets/231Project/231.pdf' | relative_url }}" target="_blank" rel="noopener">download the PDF</a>.
   </div>
 </details>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.10.137/pdf.min.js"></script>
+<!-- PDFObject JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.8/pdfobject.min.js"></script>
 <script>
-  document.getElementById('pdf-details').addEventListener('toggle', function(e) {
-    if (!this.open) return; // only load when opened
+  document.querySelector('details').addEventListener('toggle', function(e) {
+    if (!this.open) return;
 
-    const wrapper = document.getElementById('pdf-wrapper');
-    const viewer = document.getElementById('pdf-viewer');
-    const loading = document.getElementById('pdf-loading');
-    const url = wrapper.getAttribute('data-pdf');
-
-    // Clear previous content
-    viewer.innerHTML = '';
-
-    // Setup PDF.js
-    const pdfjsLib = window['pdfjs-dist/build/pdf'];
-    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.10.137/pdf.worker.min.js';
-
-    pdfjsLib.getDocument(url).promise.then(pdf => {
-      for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
-        pdf.getPage(pageNum).then(page => {
-          const scale = Math.min(1.6, (window.devicePixelRatio || 1) * 1.1);
-          const viewport = page.getViewport({ scale: scale });
-
-          const canvas = document.createElement('canvas');
-          canvas.width = Math.min(viewport.width, viewer.clientWidth - 24);
-          const scaleAdjust = canvas.width / viewport.width;
-          canvas.height = viewport.height * scaleAdjust;
-          canvas.style.display = 'block';
-          canvas.style.margin = '0 auto 20px auto';
-          canvas.style.boxShadow = '0 6px 18px rgba(0,0,0,0.6)';
-          canvas.style.borderRadius = '4px';
-          canvas.style.background = '#fff';
-
-          const renderContext = {
-            canvasContext: canvas.getContext('2d'),
-            viewport: page.getViewport({ scale: scale * scaleAdjust })
-          };
-
-          viewer.appendChild(canvas);
-          page.render(renderContext);
-        });
-      }
-    }).catch(err => {
-      viewer.innerHTML = '<div style="color:#ffb3a7; text-align:center; padding:20px;">Unable to load PDF inline. Use the download link below.</div>';
-      console.error('PDF.js error:', err);
-    });
-  }, { once: true }); // load only once
+    PDFObject.embed(
+      "{{ '/assets/231Project/231.pdf' | relative_url }}", 
+      "#pdf-wrapper",
+      { height: "100%", width: "100%", fallbackLink: "<p>This browser does not support PDFs. <a href='{{ '/assets/231Project/231.pdf' | relative_url }}'>Download PDF</a>.</p>" }
+    );
+  }, { once: true });
 </script>
 
