@@ -33,10 +33,8 @@ Websockets
 
 
 <details>
-  <summary style="font-size:1.1em; font-weight:bold; cursor:pointer;">Frontend Information</summary>
-  <p>
-    My team is currently using React Js with Vite as our frontend stack which has given us a great component based design.
-  </p>
+  <summary style="font-size:1.1em; font-weight:bold; cursor:pointer;">Screenshot of Current State</summary>
+  <img src="/assets/SeniorDesign/dashboard.png" alt="Dashboard Screenshot" />
 </details>
 
 <details>
