@@ -34,7 +34,7 @@ Websockets
 
 <details>
   <summary style="font-size:1.1em; font-weight:bold; cursor:pointer;">Screenshot of Current State</summary>
-  <img src="/assets/SeniorDesign/dashboard.png" alt="Dashboard Screenshot" />
+  <img src="/assets/SeniorDesign/dashboard.png" alt="Dashboard Screenshot" style="max-width:100%; height:auto;"/>
 </details>
 
 <details>
