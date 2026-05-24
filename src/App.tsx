@@ -1,40 +1,41 @@
 const projects = [
   {
-    title: "AI Integrated Smart Ecosystem Project",
+    title: "AI Integrated Smart Ecosystem Project (Senior Capstone)",
     description:
       "Built an AI-powered smart aquarium ecosystem that captures live tank images, runs fish detection, stores image/count data, and displays results through a web dashboard.",
-    tech: ["Python", "FastAPI", "YOLOv8", "ASP.NET Core", "SQLite", "React", "Linux"],
+    tech: ["Python", "FastAPI", "YOLOv8", ".NET 9", "JWT", "SQLite", "React/Vite, C++"],
     github: "https://github.com/carsoni4/SmartEcosystem",
   },
   {
-    title: "COM S 309 Project",
+    title: "Supper Solver (COMS 309 Project)",
     description:
       "Developed a full-stack team software project with a structured backend, database integration, and frontend features built around real user workflows.",
-    tech: ["Java", "Spring Boot", "MySQL", "React", "Git"],
+    tech: ["Java", "Spring Boot", "JPA/Hibernate", "MySQL"],
     github: "https://github.com/carsoni4/Supper-Solver",
   },
   {
-    title: "OMap",
+    title: "OMap (Personal Project)",
     description:
       "Personal office mapping project that allows IT teams to create and maintain an interactive map of office layouts, and equipment locations",
-    tech: [".NET 10", "React", "Vite", "PostgreSQL", "Docker"],
+    tech: [".NET 10", "React/Vite", "PostgreSQL", "Docker"],
     github: "https://github.com/carsoni4/oMapBackend",
   },
 ];
 
 const skills = [
   "C#",
+  ".NET Core",
   ".NET Framework",
   "SQL Server",
-  "WPF",
+  "React/Vite",
   "REST APIs",
+  "Git",
+  "TypeScript",
+  "WPF",
   "Microsoft Power Apps",
   "Power Automate",
-  "VBA",
-  "Git",
-  "JavaScript",
-  "TypeScript",
-  "React",
+  "Java",
+  "Linux"
 ];
 
 function App() {
