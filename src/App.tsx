@@ -1,24 +1,26 @@
 const projects = [
   {
-    title: "Internal Application Modernization",
+    title: "AI Integrated Smart Ecosystem Project",
     description:
-      "Developed SQL Server and CRM REST API-based versions of an internal WPF and .NET Framework application to support part description and routing updates during a system migration.",
-    tech: [".NET Framework", "C#", "WPF", "SQL Server", "CRM REST API"],
+      "Built an AI-powered smart aquarium ecosystem that captures live tank images, runs fish detection, stores image/count data, and displays results through a web dashboard.",
+    tech: ["Python", "FastAPI", "YOLOv8", "ASP.NET Core", "SQLite", "React", "Linux"],
+    github: "https://github.com/carsoni4/SmartEcosystem",
   },
   {
-    title: "Power Apps Business Tools",
+    title: "COM S 309 Project",
     description:
-      "Built and supported Microsoft Power Apps solutions to improve internal workflows and reduce manual business processes.",
-    tech: ["Microsoft Power Apps", "Dataverse", "Power Automate"],
+      "Developed a full-stack team software project with a structured backend, database integration, and frontend features built around real user workflows.",
+    tech: ["Java", "Spring Boot", "MySQL", "React", "Git"],
+    github: "https://github.com/carsoni4/Supper-Solver",
   },
   {
-    title: "Automation and Reporting Tools",
+    title: "OMap",
     description:
-      "Created internal tools and scripts to support business reporting, data updates, and process automation.",
-    tech: ["VBA", "SQL", ".NET", "Excel"],
+      "Personal office mapping project that allows IT teams to create and maintain an interactive map of office layouts, and equipment locations",
+    tech: [".NET 10", "React", "Vite", "PostgreSQL", "Docker"],
+    github: "https://github.com/carsoni4/oMapBackend",
   },
 ];
-//test
 
 const skills = [
   "C#",
@@ -227,11 +229,11 @@ function Projects() {
           {projects.map((project) => (
             <article
               key={project.title}
-              className="rounded-3xl border border-white/10 bg-white/5 p-6 transition hover:-translate-y-1 hover:border-sky-400/50"
+              className="flex flex-col rounded-3xl border border-white/10 bg-white/5 p-6 transition hover:-translate-y-1 hover:border-sky-400/50"
             >
               <h3 className="text-xl font-bold text-white">{project.title}</h3>
 
-              <p className="mt-4 leading-7 text-slate-300">
+              <p className="mt-4 flex-1 leading-7 text-slate-300">
                 {project.description}
               </p>
 
@@ -245,6 +247,15 @@ function Projects() {
                   </span>
                 ))}
               </div>
+
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noreferrer"
+                className="mt-6 inline-flex w-fit rounded-full border border-white/20 px-4 py-2 text-sm font-semibold text-white transition hover:border-sky-400 hover:text-sky-400"
+              >
+                View GitHub Repo
+              </a>
             </article>
           ))}
         </div>
