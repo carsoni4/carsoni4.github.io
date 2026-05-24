@@ -3,7 +3,7 @@ const projects = [
     title: "AI Integrated Smart Ecosystem (Senior Capstone)",
     description:
       "Built an AI-powered smart aquarium ecosystem that captures live tank images, runs fish detection, stores image/count data, and displays results through a web dashboard.",
-    tech: ["Python", "FastAPI", "YOLOv8", ".NET 9", "JWT", "SQLite", "React/Vite, C++, XUnit"],
+    tech: ["Python", "FastAPI", "YOLOv8", ".NET 9", "JWT", "SQLite", "React/Vite", "C++", "XUnit"],
     github: "https://github.com/carsoni4/SmartEcosystem",
   },
   {
