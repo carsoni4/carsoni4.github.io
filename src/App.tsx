@@ -111,13 +111,13 @@ function Hero() {
         </p>
 
         <h1 className="max-w-3xl text-5xl font-bold tracking-tight text-white md:text-7xl">
-          Hi, I’m Carson. I build practical software for real business problems.
+          Hi, I’m Carson.
         </h1>
 
         <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-          I’m a software-focused IT professional with experience developing
-          internal applications, database-backed tools, REST API integrations,
-          and business automation solutions.
+          I’m an Iowa State University graduate with a Bachelor of Science in Cybersecurity
+          and a software-focused IT professional with experience developing internal applications,
+          database-backed tools, REST API integrations, and business automation solutions.
         </p>
 
         <div className="mt-8 flex flex-wrap gap-4">
