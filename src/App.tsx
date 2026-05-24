@@ -225,8 +225,7 @@ function Experience() {
               internal WPF and .NET Framework application.
             </li>
             <li>
-              • Supported part description and routing updates during a system
-              migration.
+              • Maintained database security groups and user permissions for internal applications and data.
             </li>
             <li>
               • Built and maintained business tools using Microsoft Power Apps,
