@@ -38,6 +38,28 @@ const skills = [
   "Linux"
 ];
 
+function LeetCode() {
+  return (
+    <section id="leetcode" className="border-t border-white/10 bg-slate-900/40">
+      <div className="mx-auto max-w-6xl px-6 py-20">
+        <SectionHeader eyebrow="LeetCode" title="Problem Solving Activity" />
+
+        <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
+          I use LeetCode to practice data structures, algorithms, and technical interview problem solving.
+        </p>
+
+        <div className="mt-8 overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-4">
+          <img
+            src="https://leetcard.jacoblin.cool/carsoni?theme=dark&ext=heatmap"
+            alt="LeetCode activity heatmap"
+            className="w-full"
+          />
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function App() {
   return (
     <main className="min-h-screen bg-slate-950 text-slate-100">
@@ -46,6 +68,7 @@ function App() {
       <About />
       <Experience />
       <Projects />
+      <LeetCode />
       <Skills />
       <Contact />
     </main>
