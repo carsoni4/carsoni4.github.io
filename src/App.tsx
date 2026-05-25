@@ -115,9 +115,9 @@ function Hero() {
         </h1>
 
         <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-          I’m an Iowa State University graduate with a Bachelor of Science in Cybersecurity
-          and a software-focused IT professional with experience developing internal applications,
-          database-backed tools, REST API integrations, and business automation solutions.
+          I’m an Iowa State University graduate with a Bachelor of Science in Cybersecurity Engineering
+          and a software-focused IT professional with experience developing REST APIs, internal applications,
+          database-backed tools, and business automation solutions.
         </p>
 
         <div className="mt-8 flex flex-wrap gap-4">
