@@ -7,11 +7,12 @@ const projects = [
     github: "https://github.com/carsoni4/SmartEcosystem",
   },
   {
-    title: "Supper Solver (COMS 309 Project)",
+  {
+    title: "Machine Controller Simulator",
     description:
-      "Developed a full-stack team software project with a structured backend, database integration, and frontend features built around real user workflows.",
-    tech: ["Java", "Spring Boot", "JPA/Hibernate", "MySQL"],
-    github: "https://github.com/carsoni4/Supper-Solver",
+      "Built a Python-based embedded-style machine controller simulator with command validation, safety rules, automated pytest coverage, and branch coverage for system-level testing practice.",
+    tech: ["Python", "pytest", "pytest-cov", "Enums", "CI/CD", "Branch Coverage"],
+    github: "https://github.com/carsoni4/MachineControllerSimulator/",
   },
   {
     title: "OMap (Personal Project)",
@@ -26,16 +27,27 @@ const skills = [
   "C#",
   ".NET Core",
   ".NET Framework",
-  "SQL Server",
-  "React/Vite",
   "REST APIs",
-  "Git",
+  "SQL Server",
+  "PostgreSQL",
+  "Python",
+  "pytest",
+  "pytest-cov",
+  "Branch Coverage",
+  "Test Automation",
+  "CI/CD",
+  "SQLite",
+  "React/Vite",
   "TypeScript",
+  "Java",
+  "Spring Boot",
+  "Linux",
+  "Bash",
+  "Docker",
   "WPF",
   "Microsoft Power Apps",
   "Power Automate",
-  "Java",
-  "Linux"
+  "Git"
 ];
 
 function LeetCode() {
