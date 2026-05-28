@@ -10,7 +10,7 @@ const projects = [
     title: "Machine Controller Simulator",
     description:
       "Built a Python-based embedded-style machine controller simulator with command validation, safety rules, automated pytest coverage, and branch coverage for system-level testing practice.",
-    tech: ["Python", "pytest", "pytest-cov", "Enums", "CI/CD", "Branch Coverage"],
+    tech: ["Python", "pytest", "pytest-cov", "CI/CD", "Branch Coverage"],
     github: "https://github.com/carsoni4/MachineControllerSimulator/",
   },
   {
