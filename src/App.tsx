@@ -7,7 +7,6 @@ const projects = [
     github: "https://github.com/carsoni4/SmartEcosystem",
   },
   {
-  {
     title: "Machine Controller Simulator",
     description:
       "Built a Python-based embedded-style machine controller simulator with command validation, safety rules, automated pytest coverage, and branch coverage for system-level testing practice.",
