@@ -17,7 +17,7 @@ const projects = [
         title: "OMap (Personal Project)",
         description:
             "Personal office mapping project that allows IT teams to create and maintain an interactive map of office layouts, and equipment locations",
-        tech: [".NET 10", "React/Vite", "PostgreSQL", "Docker"],
+        tech: ["go", "sqlite3", "React/Vite"],
         github: "https://github.com/carsoni4/oMapBackend",
     },
 ];
